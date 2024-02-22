@@ -95,6 +95,7 @@ namespace Circus.Pages
                     NavigationService.Navigate(new WorkerPage());
                 }
 
+
                 if (PositionCB.SelectedIndex == 3)
                 {
                     worker.Surname = SurnameTB.Text.Trim();
